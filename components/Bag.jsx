@@ -1,5 +1,8 @@
 'use client';
 
+// TODO: Add XCH wallet integration to bag search functionality using Chia blockchain API
+// TODO: Implement wallet connection for direct Chia address lookups
+
 import { useState } from 'react';
 
 export default function Bag() {

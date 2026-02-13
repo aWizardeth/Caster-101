@@ -2,6 +2,9 @@
 
 import { useState, useEffect, useRef } from 'react';
 
+// TODO: Add XCH wallet to bag search using Chia API
+// TODO: Fix Chia API calls for consistent treasury loading - current issues with rate limiting
+
 // Wrapper for Spacescan API calls - use proxy to avoid CORS issues with retry logic
 const spacescanFetch = async (url, timeout = 12000, maxRetries = 3) => {
   const path = url.replace('https://api.spacescan.io/', '');
