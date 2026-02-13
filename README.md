@@ -1,4 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CASTER101 - Next.js
+
+Caster project converted to Next.js from Vite.
+
+## Getting Started
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Environment Variables
+
+Copy `.env.local` and fill in optional API keys for better rate limits:
+
+- `SPACESCAN_API_KEY` - For Spacescan API
+- `MERKL_API_KEY` - For Merkl API  
+- `MINTGARDEN_API_KEY` - For Mintgarden API
+
+## Features
+
+- 📈 **Emoji Market** - Track Chia and Base token prices
+- 💰 **Bag** - Coming soon
+- 🧙‍♂️ **aWizard Treasury** - Coming soon
+- 🎓 **How to Wizard** - Coming soon
+- 📜 **Book of Wizard** - Coming soon
+- 🏰 **Caster Valley** - Interactive valley experience
+
+## API Routes
+
+- `/api/chia-cat-prices` - Fetches Chia CAT token prices from Spacescan/Dexie
+
+## Deployment
+
+Deploy to Vercel:
+
+```bash
+npm run build
+```
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
 
 ## Getting Started
 
